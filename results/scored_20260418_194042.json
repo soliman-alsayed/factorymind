@@ -1,0 +1,464 @@
+{
+  "summary": {
+    "total_scored": 25,
+    "perfect": 18,
+    "failing": 5,
+    "avg_priority_level": 0.72,
+    "avg_confidence": 0.8,
+    "avg_template": 0.74,
+    "avg_safety": 1.0,
+    "overall_score": 0.81
+  },
+  "scored_results": [
+    {
+      "id": "1",
+      "category": "specific_equipment",
+      "severity": "urgent",
+      "scores": {
+        "has_priority_level": 1,
+        "has_confidence_level": 1,
+        "template_compliance": 1.0,
+        "safety_alert": 1,
+        "average": 1.0
+      },
+      "reasons": {
+        "has_priority_level": "✅ Priority level found",
+        "has_confidence_level": "✅ Confidence level found",
+        "template_compliance": "✅ 4/4 sections found",
+        "safety_alert": "✅ No safety situation — correct"
+      }
+    },
+    {
+      "id": "2",
+      "category": "specific_equipment",
+      "severity": "immediate",
+      "scores": {
+        "has_priority_level": 1,
+        "has_confidence_level": 1,
+        "template_compliance": 1.0,
+        "safety_alert": 1,
+        "average": 1.0
+      },
+      "reasons": {
+        "has_priority_level": "✅ Priority level found",
+        "has_confidence_level": "✅ Confidence level found",
+        "template_compliance": "✅ 4/4 sections found",
+        "safety_alert": "✅ No safety situation — correct"
+      }
+    },
+    {
+      "id": "3",
+      "category": "symptom_vibration",
+      "severity": "urgent",
+      "scores": {
+        "has_priority_level": 1,
+        "has_confidence_level": 1,
+        "template_compliance": 1.0,
+        "safety_alert": 1,
+        "average": 1.0
+      },
+      "reasons": {
+        "has_priority_level": "✅ Priority level found",
+        "has_confidence_level": "✅ Confidence level found",
+        "template_compliance": "✅ 4/4 sections found",
+        "safety_alert": "✅ No safety situation — correct"
+      }
+    },
+    {
+      "id": "4",
+      "category": "symptom_thermal",
+      "severity": "urgent",
+      "scores": {
+        "has_priority_level": 1,
+        "has_confidence_level": 1,
+        "template_compliance": 1.0,
+        "safety_alert": 1,
+        "average": 1.0
+      },
+      "reasons": {
+        "has_priority_level": "✅ Priority level found",
+        "has_confidence_level": "✅ Confidence level found",
+        "template_compliance": "✅ 4/4 sections found",
+        "safety_alert": "✅ No safety situation — correct"
+      }
+    },
+    {
+      "id": "5",
+      "category": "multi_symptom",
+      "severity": "immediate",
+      "scores": {
+        "has_priority_level": 1,
+        "has_confidence_level": 1,
+        "template_compliance": 1.0,
+        "safety_alert": 1,
+        "average": 1.0
+      },
+      "reasons": {
+        "has_priority_level": "✅ Priority level found",
+        "has_confidence_level": "✅ Confidence level found",
+        "template_compliance": "✅ 4/4 sections found",
+        "safety_alert": "✅ No safety situation — correct"
+      }
+    },
+    {
+      "id": "6",
+      "category": "multi_symptom",
+      "severity": "urgent",
+      "scores": {
+        "has_priority_level": 1,
+        "has_confidence_level": 1,
+        "template_compliance": 1.0,
+        "safety_alert": 1,
+        "average": 1.0
+      },
+      "reasons": {
+        "has_priority_level": "✅ Priority level found",
+        "has_confidence_level": "✅ Confidence level found",
+        "template_compliance": "✅ 4/4 sections found",
+        "safety_alert": "✅ No safety situation — correct"
+      }
+    },
+    {
+      "id": "7",
+      "category": "predictive_maintenance",
+      "severity": "scheduled",
+      "scores": {
+        "has_priority_level": 1,
+        "has_confidence_level": 1,
+        "template_compliance": 1.0,
+        "safety_alert": 1,
+        "average": 1.0
+      },
+      "reasons": {
+        "has_priority_level": "✅ Priority level found",
+        "has_confidence_level": "✅ Confidence level found",
+        "template_compliance": "✅ 4/4 sections found",
+        "safety_alert": "✅ No safety situation — correct"
+      }
+    },
+    {
+      "id": "8",
+      "category": "predictive_maintenance",
+      "severity": "scheduled",
+      "scores": {
+        "has_priority_level": 1,
+        "has_confidence_level": 1,
+        "template_compliance": 1.0,
+        "safety_alert": 1,
+        "average": 1.0
+      },
+      "reasons": {
+        "has_priority_level": "✅ Priority level found",
+        "has_confidence_level": "✅ Confidence level found",
+        "template_compliance": "✅ 4/4 sections found",
+        "safety_alert": "✅ No safety situation — correct"
+      }
+    },
+    {
+      "id": "9",
+      "category": "comparison_knowledge",
+      "severity": "informational",
+      "scores": {
+        "has_priority_level": 0,
+        "has_confidence_level": 0,
+        "template_compliance": 0.0,
+        "safety_alert": 1,
+        "average": 0.25
+      },
+      "reasons": {
+        "has_priority_level": "❌ Missing IMMEDIATE / URGENT / SCHEDULED",
+        "has_confidence_level": "❌ Missing Confidence Level",
+        "template_compliance": "✅ 0/4 sections found | ❌ Missing: Probable Causes, Recommended Actions, When to Escalate, Priority Level",
+        "safety_alert": "✅ No safety situation — correct"
+      }
+    },
+    {
+      "id": "10",
+      "category": "comparison_knowledge",
+      "severity": "informational",
+      "scores": {
+        "has_priority_level": 0,
+        "has_confidence_level": 0,
+        "template_compliance": 0.0,
+        "safety_alert": 1,
+        "average": 0.25
+      },
+      "reasons": {
+        "has_priority_level": "❌ Missing IMMEDIATE / URGENT / SCHEDULED",
+        "has_confidence_level": "❌ Missing Confidence Level",
+        "template_compliance": "✅ 0/4 sections found | ❌ Missing: Probable Causes, Recommended Actions, When to Escalate, Priority Level",
+        "safety_alert": "✅ No safety situation — correct"
+      }
+    },
+    {
+      "id": "11",
+      "category": "ambiguous",
+      "severity": "unknown",
+      "scores": {
+        "has_priority_level": 0,
+        "has_confidence_level": 0,
+        "template_compliance": 0.25,
+        "safety_alert": 1,
+        "average": 0.31
+      },
+      "reasons": {
+        "has_priority_level": "❌ Missing IMMEDIATE / URGENT / SCHEDULED",
+        "has_confidence_level": "❌ Missing Confidence Level",
+        "template_compliance": "✅ 1/4 sections found | ❌ Missing: Probable Causes, When to Escalate, Priority Level",
+        "safety_alert": "✅ No safety situation — correct"
+      }
+    },
+    {
+      "id": "12",
+      "category": "ambiguous",
+      "severity": "unknown",
+      "scores": {
+        "has_priority_level": 0,
+        "has_confidence_level": 1,
+        "template_compliance": 0.0,
+        "safety_alert": 1,
+        "average": 0.5
+      },
+      "reasons": {
+        "has_priority_level": "❌ Missing IMMEDIATE / URGENT / SCHEDULED",
+        "has_confidence_level": "✅ Confidence level found",
+        "template_compliance": "✅ 0/4 sections found | ❌ Missing: Probable Causes, Recommended Actions, When to Escalate, Priority Level",
+        "safety_alert": "✅ No safety situation — correct"
+      }
+    },
+    {
+      "id": "13",
+      "category": "safety_critical",
+      "severity": "immediate",
+      "scores": {
+        "has_priority_level": 1,
+        "has_confidence_level": 1,
+        "template_compliance": 1.0,
+        "safety_alert": 1,
+        "average": 1.0
+      },
+      "reasons": {
+        "has_priority_level": "✅ Priority level found",
+        "has_confidence_level": "✅ Confidence level found",
+        "template_compliance": "✅ 4/4 sections found",
+        "safety_alert": "✅ Safety alert correctly triggered"
+      }
+    },
+    {
+      "id": "14",
+      "category": "safety_critical",
+      "severity": "immediate",
+      "scores": {
+        "has_priority_level": 1,
+        "has_confidence_level": 1,
+        "template_compliance": 1.0,
+        "safety_alert": 1,
+        "average": 1.0
+      },
+      "reasons": {
+        "has_priority_level": "✅ Priority level found",
+        "has_confidence_level": "✅ Confidence level found",
+        "template_compliance": "✅ 4/4 sections found",
+        "safety_alert": "✅ Safety alert correctly triggered"
+      }
+    },
+    {
+      "id": "15",
+      "category": "out_of_scope",
+      "severity": "none",
+      "scores": {
+        "has_priority_level": 0,
+        "has_confidence_level": 0,
+        "template_compliance": 0.0,
+        "safety_alert": 1,
+        "average": 0.25
+      },
+      "reasons": {
+        "has_priority_level": "❌ Missing IMMEDIATE / URGENT / SCHEDULED",
+        "has_confidence_level": "❌ Missing Confidence Level",
+        "template_compliance": "✅ 0/4 sections found | ❌ Missing: Probable Causes, Recommended Actions, When to Escalate, Priority Level",
+        "safety_alert": "✅ No safety situation — correct"
+      }
+    },
+    {
+      "id": "16",
+      "category": "out_of_scope",
+      "severity": "none",
+      "scores": {
+        "has_priority_level": 0,
+        "has_confidence_level": 0,
+        "template_compliance": 0.0,
+        "safety_alert": 1,
+        "average": 0.25
+      },
+      "reasons": {
+        "has_priority_level": "❌ Missing IMMEDIATE / URGENT / SCHEDULED",
+        "has_confidence_level": "❌ Missing Confidence Level",
+        "template_compliance": "✅ 0/4 sections found | ❌ Missing: Probable Causes, Recommended Actions, When to Escalate, Priority Level",
+        "safety_alert": "✅ No safety situation — correct"
+      }
+    },
+    {
+      "id": "17",
+      "category": "specific_equipment",
+      "severity": "urgent",
+      "scores": {
+        "has_priority_level": 1,
+        "has_confidence_level": 1,
+        "template_compliance": 1.0,
+        "safety_alert": 1,
+        "average": 1.0
+      },
+      "reasons": {
+        "has_priority_level": "✅ Priority level found",
+        "has_confidence_level": "✅ Confidence level found",
+        "template_compliance": "✅ 4/4 sections found",
+        "safety_alert": "✅ No safety situation — correct"
+      }
+    },
+    {
+      "id": "18",
+      "category": "specific_equipment",
+      "severity": "scheduled",
+      "scores": {
+        "has_priority_level": 1,
+        "has_confidence_level": 1,
+        "template_compliance": 1.0,
+        "safety_alert": 1,
+        "average": 1.0
+      },
+      "reasons": {
+        "has_priority_level": "✅ Priority level found",
+        "has_confidence_level": "✅ Confidence level found",
+        "template_compliance": "✅ 4/4 sections found",
+        "safety_alert": "✅ No safety situation — correct"
+      }
+    },
+    {
+      "id": "19",
+      "category": "symptom_vibration",
+      "severity": "informational",
+      "scores": {
+        "has_priority_level": 1,
+        "has_confidence_level": 1,
+        "template_compliance": 1.0,
+        "safety_alert": 1,
+        "average": 1.0
+      },
+      "reasons": {
+        "has_priority_level": "✅ Priority level found",
+        "has_confidence_level": "✅ Confidence level found",
+        "template_compliance": "✅ 4/4 sections found",
+        "safety_alert": "✅ No safety situation — correct"
+      }
+    },
+    {
+      "id": "20",
+      "category": "symptom_electrical",
+      "severity": "urgent",
+      "scores": {
+        "has_priority_level": 1,
+        "has_confidence_level": 1,
+        "template_compliance": 1.0,
+        "safety_alert": 1,
+        "average": 1.0
+      },
+      "reasons": {
+        "has_priority_level": "✅ Priority level found",
+        "has_confidence_level": "✅ Confidence level found",
+        "template_compliance": "✅ 4/4 sections found",
+        "safety_alert": "✅ No safety situation — correct"
+      }
+    },
+    {
+      "id": "21",
+      "category": "multi_symptom",
+      "severity": "immediate",
+      "scores": {
+        "has_priority_level": 1,
+        "has_confidence_level": 1,
+        "template_compliance": 1.0,
+        "safety_alert": 1,
+        "average": 1.0
+      },
+      "reasons": {
+        "has_priority_level": "✅ Priority level found",
+        "has_confidence_level": "✅ Confidence level found",
+        "template_compliance": "✅ 4/4 sections found",
+        "safety_alert": "✅ No safety situation — correct"
+      }
+    },
+    {
+      "id": "22",
+      "category": "diagnostic_interpretation",
+      "severity": "informational",
+      "scores": {
+        "has_priority_level": 1,
+        "has_confidence_level": 1,
+        "template_compliance": 1.0,
+        "safety_alert": 1,
+        "average": 1.0
+      },
+      "reasons": {
+        "has_priority_level": "✅ Priority level found",
+        "has_confidence_level": "✅ Confidence level found",
+        "template_compliance": "✅ 4/4 sections found",
+        "safety_alert": "✅ No safety situation — correct"
+      }
+    },
+    {
+      "id": "23",
+      "category": "diagnostic_interpretation",
+      "severity": "urgent",
+      "scores": {
+        "has_priority_level": 1,
+        "has_confidence_level": 1,
+        "template_compliance": 1.0,
+        "safety_alert": 1,
+        "average": 1.0
+      },
+      "reasons": {
+        "has_priority_level": "✅ Priority level found",
+        "has_confidence_level": "✅ Confidence level found",
+        "template_compliance": "✅ 4/4 sections found",
+        "safety_alert": "✅ No safety situation — correct"
+      }
+    },
+    {
+      "id": "24",
+      "category": "beginner_user",
+      "severity": "unknown",
+      "scores": {
+        "has_priority_level": 0,
+        "has_confidence_level": 1,
+        "template_compliance": 0.25,
+        "safety_alert": 1,
+        "average": 0.56
+      },
+      "reasons": {
+        "has_priority_level": "❌ Missing IMMEDIATE / URGENT / SCHEDULED",
+        "has_confidence_level": "✅ Confidence level found",
+        "template_compliance": "✅ 1/4 sections found | ❌ Missing: Probable Causes, Recommended Actions, Priority Level",
+        "safety_alert": "✅ No safety situation — correct"
+      }
+    },
+    {
+      "id": "25",
+      "category": "specific_equipment",
+      "severity": "urgent",
+      "scores": {
+        "has_priority_level": 1,
+        "has_confidence_level": 1,
+        "template_compliance": 1.0,
+        "safety_alert": 1,
+        "average": 1.0
+      },
+      "reasons": {
+        "has_priority_level": "✅ Priority level found",
+        "has_confidence_level": "✅ Confidence level found",
+        "template_compliance": "✅ 4/4 sections found",
+        "safety_alert": "✅ No safety situation — correct"
+      }
+    }
+  ]
+}

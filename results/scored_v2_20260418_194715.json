@@ -1,0 +1,360 @@
+{
+  "summary": {
+    "total_scored": 25,
+    "perfect": 24,
+    "failing": 0,
+    "overall_score": 0.98
+  },
+  "scored_results": [
+    {
+      "id": "1",
+      "category": "specific_equipment",
+      "severity": "urgent",
+      "scores": {
+        "has_priority_level": 1,
+        "has_confidence_level": 1,
+        "template_compliance": 1.0,
+        "safety_alert": 1,
+        "out_of_scope": null,
+        "ambiguous_handled": null,
+        "average": 1.0
+      }
+    },
+    {
+      "id": "2",
+      "category": "specific_equipment",
+      "severity": "immediate",
+      "scores": {
+        "has_priority_level": 1,
+        "has_confidence_level": 1,
+        "template_compliance": 1.0,
+        "safety_alert": 1,
+        "out_of_scope": null,
+        "ambiguous_handled": null,
+        "average": 1.0
+      }
+    },
+    {
+      "id": "3",
+      "category": "symptom_vibration",
+      "severity": "urgent",
+      "scores": {
+        "has_priority_level": 1,
+        "has_confidence_level": 1,
+        "template_compliance": 1.0,
+        "safety_alert": 1,
+        "out_of_scope": null,
+        "ambiguous_handled": null,
+        "average": 1.0
+      }
+    },
+    {
+      "id": "4",
+      "category": "symptom_thermal",
+      "severity": "urgent",
+      "scores": {
+        "has_priority_level": 1,
+        "has_confidence_level": 1,
+        "template_compliance": 1.0,
+        "safety_alert": 1,
+        "out_of_scope": null,
+        "ambiguous_handled": null,
+        "average": 1.0
+      }
+    },
+    {
+      "id": "5",
+      "category": "multi_symptom",
+      "severity": "immediate",
+      "scores": {
+        "has_priority_level": 1,
+        "has_confidence_level": 1,
+        "template_compliance": 1.0,
+        "safety_alert": 1,
+        "out_of_scope": null,
+        "ambiguous_handled": null,
+        "average": 1.0
+      }
+    },
+    {
+      "id": "6",
+      "category": "multi_symptom",
+      "severity": "urgent",
+      "scores": {
+        "has_priority_level": 1,
+        "has_confidence_level": 1,
+        "template_compliance": 1.0,
+        "safety_alert": 1,
+        "out_of_scope": null,
+        "ambiguous_handled": null,
+        "average": 1.0
+      }
+    },
+    {
+      "id": "7",
+      "category": "predictive_maintenance",
+      "severity": "scheduled",
+      "scores": {
+        "has_priority_level": 1,
+        "has_confidence_level": 1,
+        "template_compliance": 1.0,
+        "safety_alert": 1,
+        "out_of_scope": null,
+        "ambiguous_handled": null,
+        "average": 1.0
+      }
+    },
+    {
+      "id": "8",
+      "category": "predictive_maintenance",
+      "severity": "scheduled",
+      "scores": {
+        "has_priority_level": 1,
+        "has_confidence_level": 1,
+        "template_compliance": 1.0,
+        "safety_alert": 1,
+        "out_of_scope": null,
+        "ambiguous_handled": null,
+        "average": 1.0
+      }
+    },
+    {
+      "id": "9",
+      "category": "comparison_knowledge",
+      "severity": "informational",
+      "scores": {
+        "has_priority_level": null,
+        "has_confidence_level": null,
+        "template_compliance": null,
+        "safety_alert": 1,
+        "out_of_scope": null,
+        "ambiguous_handled": null,
+        "average": 1.0
+      }
+    },
+    {
+      "id": "10",
+      "category": "comparison_knowledge",
+      "severity": "informational",
+      "scores": {
+        "has_priority_level": null,
+        "has_confidence_level": null,
+        "template_compliance": null,
+        "safety_alert": 1,
+        "out_of_scope": null,
+        "ambiguous_handled": null,
+        "average": 1.0
+      }
+    },
+    {
+      "id": "11",
+      "category": "ambiguous",
+      "severity": "unknown",
+      "scores": {
+        "has_priority_level": null,
+        "has_confidence_level": null,
+        "template_compliance": null,
+        "safety_alert": 1,
+        "out_of_scope": null,
+        "ambiguous_handled": 1,
+        "average": 1.0
+      }
+    },
+    {
+      "id": "12",
+      "category": "ambiguous",
+      "severity": "unknown",
+      "scores": {
+        "has_priority_level": null,
+        "has_confidence_level": null,
+        "template_compliance": null,
+        "safety_alert": 1,
+        "out_of_scope": null,
+        "ambiguous_handled": 1,
+        "average": 1.0
+      }
+    },
+    {
+      "id": "13",
+      "category": "safety_critical",
+      "severity": "immediate",
+      "scores": {
+        "has_priority_level": 1,
+        "has_confidence_level": 1,
+        "template_compliance": 1.0,
+        "safety_alert": 1,
+        "out_of_scope": null,
+        "ambiguous_handled": null,
+        "average": 1.0
+      }
+    },
+    {
+      "id": "14",
+      "category": "safety_critical",
+      "severity": "immediate",
+      "scores": {
+        "has_priority_level": 1,
+        "has_confidence_level": 1,
+        "template_compliance": 1.0,
+        "safety_alert": 1,
+        "out_of_scope": null,
+        "ambiguous_handled": null,
+        "average": 1.0
+      }
+    },
+    {
+      "id": "15",
+      "category": "out_of_scope",
+      "severity": "none",
+      "scores": {
+        "has_priority_level": null,
+        "has_confidence_level": null,
+        "template_compliance": null,
+        "safety_alert": 1,
+        "out_of_scope": 1,
+        "ambiguous_handled": null,
+        "average": 1.0
+      }
+    },
+    {
+      "id": "16",
+      "category": "out_of_scope",
+      "severity": "none",
+      "scores": {
+        "has_priority_level": null,
+        "has_confidence_level": null,
+        "template_compliance": null,
+        "safety_alert": 1,
+        "out_of_scope": 1,
+        "ambiguous_handled": null,
+        "average": 1.0
+      }
+    },
+    {
+      "id": "17",
+      "category": "specific_equipment",
+      "severity": "urgent",
+      "scores": {
+        "has_priority_level": 1,
+        "has_confidence_level": 1,
+        "template_compliance": 1.0,
+        "safety_alert": 1,
+        "out_of_scope": null,
+        "ambiguous_handled": null,
+        "average": 1.0
+      }
+    },
+    {
+      "id": "18",
+      "category": "specific_equipment",
+      "severity": "scheduled",
+      "scores": {
+        "has_priority_level": 1,
+        "has_confidence_level": 1,
+        "template_compliance": 1.0,
+        "safety_alert": 1,
+        "out_of_scope": null,
+        "ambiguous_handled": null,
+        "average": 1.0
+      }
+    },
+    {
+      "id": "19",
+      "category": "symptom_vibration",
+      "severity": "informational",
+      "scores": {
+        "has_priority_level": 1,
+        "has_confidence_level": 1,
+        "template_compliance": 1.0,
+        "safety_alert": 1,
+        "out_of_scope": null,
+        "ambiguous_handled": null,
+        "average": 1.0
+      }
+    },
+    {
+      "id": "20",
+      "category": "symptom_electrical",
+      "severity": "urgent",
+      "scores": {
+        "has_priority_level": 1,
+        "has_confidence_level": 1,
+        "template_compliance": 1.0,
+        "safety_alert": 1,
+        "out_of_scope": null,
+        "ambiguous_handled": null,
+        "average": 1.0
+      }
+    },
+    {
+      "id": "21",
+      "category": "multi_symptom",
+      "severity": "immediate",
+      "scores": {
+        "has_priority_level": 1,
+        "has_confidence_level": 1,
+        "template_compliance": 1.0,
+        "safety_alert": 1,
+        "out_of_scope": null,
+        "ambiguous_handled": null,
+        "average": 1.0
+      }
+    },
+    {
+      "id": "22",
+      "category": "diagnostic_interpretation",
+      "severity": "informational",
+      "scores": {
+        "has_priority_level": 1,
+        "has_confidence_level": 1,
+        "template_compliance": 1.0,
+        "safety_alert": 1,
+        "out_of_scope": null,
+        "ambiguous_handled": null,
+        "average": 1.0
+      }
+    },
+    {
+      "id": "23",
+      "category": "diagnostic_interpretation",
+      "severity": "urgent",
+      "scores": {
+        "has_priority_level": 1,
+        "has_confidence_level": 1,
+        "template_compliance": 1.0,
+        "safety_alert": 1,
+        "out_of_scope": null,
+        "ambiguous_handled": null,
+        "average": 1.0
+      }
+    },
+    {
+      "id": "24",
+      "category": "beginner_user",
+      "severity": "unknown",
+      "scores": {
+        "has_priority_level": 0,
+        "has_confidence_level": 1,
+        "template_compliance": 0.25,
+        "safety_alert": 1,
+        "out_of_scope": null,
+        "ambiguous_handled": null,
+        "average": 0.56
+      }
+    },
+    {
+      "id": "25",
+      "category": "specific_equipment",
+      "severity": "urgent",
+      "scores": {
+        "has_priority_level": 1,
+        "has_confidence_level": 1,
+        "template_compliance": 1.0,
+        "safety_alert": 1,
+        "out_of_scope": null,
+        "ambiguous_handled": null,
+        "average": 1.0
+      }
+    }
+  ]
+}
